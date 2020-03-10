@@ -10,13 +10,24 @@ Thus, the challenge is to build an algorithm to detect acute intracranial hemorr
 
 Check the image below for more information on the various subtypes.
 
-![test]()
+![test](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/images/subtypes.png)
+
+### Data description
+
+We use [Jeremy Howard's clean dataset](https://www.kaggle.com/jhoward/rsna-hemorrhage-jpg) instead of the [original dataset](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/data) because the original does not fit on Google Colab's disk space. An in depth analysis of how he created this dataset is [shown here](https://www.kaggle.com/jhoward/cleaning-the-data-for-rapid-prototyping-fastai). Jeremy's dataset has an image size of (256,256) and the metadata stored in data frames. For any troubles downloading the original dataset, refer to [this link](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/109520)
+
+The data is provided in 3 parts, the dicom images that look as follows
+
+![test](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/images/data_sample.png)
+
+metadata such as Patient ID, Image position, Image Orientation, window center, window width and so on. And a target data frame mapping every patient to the hemorrhage.
+
+![test](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/images/sample_csv.png)
+
 
 For domain knowledge, refer to [readiology masterclass](https://www.radiologymasterclass.co.uk/tutorials/ct/ct_acute_brain/ct_brain_cerebral_haemorrhage)
 
 ### Approach:
-
-We use [Jeremy Howard's clean dataset](https://www.kaggle.com/jhoward/rsna-hemorrhage-jpg) instead of the [original dataset](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/data) because the original does not fit on Google Colab's disk space. An in depth analysis of how he created this dataset is [shown here](https://www.kaggle.com/jhoward/cleaning-the-data-for-rapid-prototyping-fastai). Jeremy's dataset has an image size of (256,256) and the metadata stored in data frames. For any troubles downloading the original dataset, refer to [this link](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/109520)
 
 The kernels are arranged in numerical order so that people can see where we started and how we went about our experiments
 

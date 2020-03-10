@@ -12,12 +12,32 @@ Check the image below for more information on the various subtypes.
 
 ![test]()
 
+For domain knowledge, refer to [readiology masterclass](https://www.radiologymasterclass.co.uk/tutorials/ct/ct_acute_brain/ct_brain_cerebral_haemorrhage)
+
 ### Approach:
 
-We use [Jeremy Howard's clean dataset](https://www.kaggle.com/jhoward/rsna-hemorrhage-jpg) instead of the [original dataset](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/data) because the original does not fit on Google Colab's disk space. An in depth analysis of how he created this dataset is [shown here](https://www.kaggle.com/jhoward/cleaning-the-data-for-rapid-prototyping-fastai). Jeremy's dataset has an image size of (256,256) and the metadata stored in data frames. For any troubles downloading the dataset, refer to [this link](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/109520)
+We use [Jeremy Howard's clean dataset](https://www.kaggle.com/jhoward/rsna-hemorrhage-jpg) instead of the [original dataset](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/data) because the original does not fit on Google Colab's disk space. An in depth analysis of how he created this dataset is [shown here](https://www.kaggle.com/jhoward/cleaning-the-data-for-rapid-prototyping-fastai). Jeremy's dataset has an image size of (256,256) and the metadata stored in data frames. For any troubles downloading the original dataset, refer to [this link](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/109520)
 
-### Papers read:
+The kernels are arranged in numerical order so that people can see where we started and how we went about our experiments
 
-[1] 
+[00_setup.ipynb]() - learn how to setup and download the dataset on Google colab.
+
+### Readings:
+
+[1] [Development and Validation of Deep Learning Algorithms for Detection of Critical Findings in Head CT Scans](https://arxiv.org/pdf/1803.05854.pdf)
+
+[2] [Qure.ai blog](http://blog.qure.ai)
+
+[3] [Expert-level detection of acute intracranial hemorrhage on head computed tomography using deep learning](https://www.pnas.org/content/116/45/22737)
+
+[4] [Extracting 2D weak labels from volume labels using multiple instance learning in CT hemorrhage detection](https://arxiv.org/pdf/1911.05650.pdf)
+
+[5] [fastai—A Layered API for Deep Learning](https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/)
+
+[6] [Accelerating Deep Learning by Focusing on the Biggest Losers](https://arxiv.org/abs/1910.00762)
+
+[7] [Bag of Tricks for Image Classification with Convolutional Neural Networks](https://arxiv.org/abs/1812.01187)
 
 ### Reference kernels:
+
+[1. Cleaning the data for rapid prototyping (fastai)](https://www.kaggle.com/jhoward/cleaning-the-data-for-rapid-prototyping-fastai)

@@ -31,7 +31,9 @@ For domain knowledge, refer to [readiology masterclass](https://www.radiologymas
 
 The kernels are arranged in numerical order so that people can see where we started and how we went about our experiments
 
-[00_setup.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/00_setup.ipynb) - how to setup and download the dataset on Google colab.
+[00_setup.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/00_setup.ipynb) - how to setup and download the dataset on Google colab.
+
+[01_data_cleaning.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/01_data_cleaning.ipynb) - steps followed to clean the data
 
 ### Readings:
 

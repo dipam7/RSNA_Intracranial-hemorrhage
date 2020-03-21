@@ -54,3 +54,5 @@ The kernels are arranged in numerical order so that people can see where we star
 ### Reference kernels:
 
 [1. Cleaning the data for rapid prototyping (fastai)](https://www.kaggle.com/jhoward/cleaning-the-data-for-rapid-prototyping-fastai)
+
+[2. Basic EDA + Data Visualization](https://www.kaggle.com/marcovasquez/basic-eda-data-visualization)

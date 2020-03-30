@@ -10,6 +10,9 @@
 - [Papers Read](#pr)
 - [References](#ref)
 
+### Motivation
+In order to become a good deep learning practioner, one needs to code a lot. Only after spending hours cleaning data, visualizng it and most importantly training models, can you get good at it. In this project, we hope to experiment a lot, fail a lot and learn a lot in the process.
+
 <a name='intro'></a>
 ### Introduction:
 

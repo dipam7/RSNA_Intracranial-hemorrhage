@@ -8,6 +8,7 @@
   * [01_data_cleaning.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/01_data_cleaning.ipynb)
   * [02_data_exploration.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/02_data_exlporation.ipynb)
   * [03_data_augmentation.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/03_data_augmentation.ipynb)
+  * [04_baseline_model](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/04_baseline_model.ipynb)
   * [05-metadata.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/05-metadata.ipynb)
 - [Papers Read](#pr)
 - [References](#ref)
@@ -57,6 +58,8 @@ The kernels are arranged in numerical order so that people can see where we star
 
 [03_data_augmentation.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/03_data_augmentation.ipynb) - applying various transforms on the images and seeing which ones are useful.
 
+[04_baseline_model](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/04_baseline_model.ipynb) - train a resnet18 with and without pretraining.
+
 [05-metadata.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/05-metadata.ipynb) - checking the usability of the metadata in training the model. 
 <a name='pr'></a>
 ### Readings:
@@ -78,6 +81,8 @@ The kernels are arranged in numerical order so that people can see where we star
 <a name='ref'></a>
 ### References:
 
-[1. Cleaning the data for rapid prototyping (fastai)](https://www.kaggle.com/jhoward/cleaning-the-data-for-rapid-prototyping-fastai)
+[1. Jeremy's notebooks](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/114214)
 
 [2. Basic EDA + Data Visualization](https://www.kaggle.com/marcovasquez/basic-eda-data-visualization)
+
+[3. See like a radiologist with systematic windowing](https://www.kaggle.com/dcstang/see-like-a-radiologist-with-systematic-windowing)

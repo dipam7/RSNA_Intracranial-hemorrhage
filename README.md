@@ -71,9 +71,11 @@ The kernels are arranged in numerical order so that people can see where we star
 
 [5] [fastai—A Layered API for Deep Learning](https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/)
 
-[6] [Accelerating Deep Learning by Focusing on the Biggest Losers](https://arxiv.org/abs/1910.00762)
+[6] [A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay](https://arxiv.org/abs/1803.09820)
 
-[7] [Bag of Tricks for Image Classification with Convolutional Neural Networks](https://arxiv.org/abs/1812.01187)
+[7] [Super-Convergence: Very Fast Training of Neural Networks Using Large Learning Rates](https://arxiv.org/abs/1708.07120)
+
+[8] [Bag of Tricks for Image Classification with Convolutional Neural Networks](https://arxiv.org/abs/1812.01187)
 
 <a name='ref'></a>
 ### References:

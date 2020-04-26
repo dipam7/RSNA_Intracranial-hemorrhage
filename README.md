@@ -11,6 +11,7 @@
   * [04_baseline_model](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/04_baseline_model.ipynb)
   * [05-metadata.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/05-metadata.ipynb)
   * [06_multilabel_classification.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/tree/master/nbs/06_multilabel_classification.ipynb)
+  * [07a_diff_archs_resnet101.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07a_diff_archs_resnet101.ipynb)
 - [Papers Read](#pr)
 - [References](#ref)
 
@@ -60,7 +61,9 @@ The kernels are arranged in numerical order so that people can see where we star
 
 [05-metadata.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/05-metadata.ipynb) - checking the usability of the metadata in training the model. 
 
-[06_multilabel_classification.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/tree/master/nbs/06_multilabel_classification.ipynb) - We take a subset of the dataframe that includes the images with bleeds present. We create a new column in the dataframe that includes all the sub categories of bleeds present in an image separated by semicolon. We then train a model on this data and use a threshold of 0.5 to make predictions. 
+[06_multilabel_classification.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/tree/master/nbs/06_multilabel_classification.ipynb) - We take a subset of the dataframe that includes the images with bleeds present. We create a new column in the dataframe that includes all the sub categories of bleeds present in an image separated by semicolon. We then train a model on this data and use a threshold of 0.5 to make predictions.
+
+[07a_diff_archs_resnet101.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07a_diff_archs_resnet101.ipynb)
 
 <a name='pr'></a>
 ### Readings:

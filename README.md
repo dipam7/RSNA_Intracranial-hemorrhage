@@ -65,15 +65,16 @@ The kernels are arranged in numerical order so that people can see where we star
 
 [05-metadata.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/05-metadata.ipynb) - checking the usability of the metadata in training the model. 
 
-[06_multilabel_classification.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/tree/master/nbs/06_multilabel_classification.ipynb) - We take a subset of the dataframe that includes the images with bleeds present. We create a new column in the dataframe that includes all the sub categories of bleeds present in an image separated by semicolon. We then train a model on this data and use a threshold of 0.5 to make predictions.
+[06_multilabel_classification.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/tree/master/nbs/06_multilabel_classification.ipynb) - We take a subset of the dataframe that includes the images with bleeds present. We create a new column in the dataframe that includes all the sub categories of bleeds present in an image separated by semicolon. We then train a model on this data and use a threshold of 0.5 to make predictions. The threshold is set to a high value because we want to be conservative with medical data and not predict a bleed unless we are very sure.
 
-[07a_diff_archs_resnet101.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07a_diff_archs_resnet101.ipynb)
+[07a_diff_archs_resnet101.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07a_diff_archs_resnet101.ipynb) - We now try different architectures to improve our model's performance. One way to do so is to use more layers. Hence we try resnet101 after resnet50. It does give a higher accuracy however not so significant.
 
-[07b_diff_archs_densenet121.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07b_different_archs_densenet121.ipynb)
+[07b_diff_archs_densenet121.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07b_different_archs_densenet121.ipynb) - Anther good architecture for image classification is densenet. Google it to find more information about this architecture.
 
-[07c_diff_archs_alexnet.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07c_diff_archs_alexnet.ipynb)
+[07c_diff_archs_alexnet.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07c_diff_archs_alexnet.ipynb) - Google to learn more about the alexnet architecture.
 
 [09_mixed_precision.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/09_mixed_precision.ipynb)
+
 
 [10_progressive_resizing.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/10_progressive_resizing.ipynb)
 

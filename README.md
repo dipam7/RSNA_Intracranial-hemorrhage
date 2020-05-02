@@ -14,6 +14,7 @@
   * [07a_diff_archs_resnet101.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07a_diff_archs_resnet101.ipynb)
   * [07b_diff_archs_densenet121.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07b_different_archs_densenet121.ipynb)
   * [07c_diff_archs_alexnet.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07c_diff_archs_alexnet.ipynb)
+  * [08_weight_decay_and_tta.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/08-weight_decay_and_tta.ipynb)
   * [09_mixed_precision.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/09_mixed_precision.ipynb)
   * [10_progressive_resizing.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/10_progressive_resizing.ipynb)
 - [Papers Read](#pr)
@@ -72,6 +73,8 @@ The kernels are arranged in numerical order so that people can see where we star
 [07b_diff_archs_densenet121.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07b_different_archs_densenet121.ipynb) - Anther good architecture for image classification is densenet. Google it to find more information about this architecture.
 
 [07c_diff_archs_alexnet.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07c_diff_archs_alexnet.ipynb) - Google to learn more about the alexnet architecture.
+
+[08_weight_decay_and_tta.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/08-weight_decay_and_tta.ipynb)
 
 [09_mixed_precision.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/09_mixed_precision.ipynb)
 

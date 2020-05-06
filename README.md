@@ -17,6 +17,7 @@
   * [08_weight_decay_and_tta.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/08-weight_decay_and_tta.ipynb)
   * [09_mixed_precision.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/09_mixed_precision.ipynb)
   * [10_progressive_resizing.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/10_progressive_resizing.ipynb)
+  * [11_model_deployment.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/11_model_deployment.ipynb)
 - [Papers Read](#pr)
 - [References](#ref)
 
@@ -74,12 +75,14 @@ The kernels are arranged in numerical order so that people can see where we star
 
 [07c_diff_archs_alexnet.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07c_diff_archs_alexnet.ipynb) - Google to learn more about the alexnet architecture.
 
-[08_weight_decay_and_tta.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/08-weight_decay_and_tta.ipynb)
+[08_weight_decay_and_tta.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/08-weight_decay_and_tta.ipynb) - In this notebook we introduce weight decay to help our model generalise better. 
 
-[09_mixed_precision.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/09_mixed_precision.ipynb)
+[09_mixed_precision.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/09_mixed_precision.ipynb) - In this notebook we try to reduce the training time by training in half precision for some parts and full precision for the others. This is known as mixed precision training
+
+[10_progressive_resizing.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/10_progressive_resizing.ipynb) - In this notebook we train a model with image size of 64, after a few epochs we train it on a dataset of 128 and finally after few more epochs we train it with images of the full size (256,256). This technique has proved to give better results for CV applications
 
 
-[10_progressive_resizing.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/10_progressive_resizing.ipynb)
+[11_model_deployment.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/11_model_deployment.ipynb) - We deploy the model in this using an API. The API is seeme.ai.
 
 <a name='pr'></a>
 ### Readings:
@@ -108,3 +111,9 @@ The kernels are arranged in numerical order so that people can see where we star
 [2. Basic EDA + Data Visualization](https://www.kaggle.com/marcovasquez/basic-eda-data-visualization)
 
 [3. See like a radiologist with systematic windowing](https://www.kaggle.com/dcstang/see-like-a-radiologist-with-systematic-windowing)
+
+[4. How Do You Find A Good Learning Rate](https://sgugger.github.io/how-do-you-find-a-good-learning-rate.html)
+
+[5. The 1cycle policy](https://sgugger.github.io/the-1cycle-policy.html)
+
+[6. This thing called Weight Decay](https://towardsdatascience.com/this-thing-called-weight-decay-a7cd4bcfccab)

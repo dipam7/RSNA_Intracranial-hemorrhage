@@ -9,7 +9,7 @@
   * [02_data_exploration.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/02_data_exploration.ipynb)
   * [03_data_augmentation.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/03_data_augmentation.ipynb)
   * [04_baseline_model](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/04_baseline_model.ipynb)
-  * [05-metadata.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/05-metadata.ipynb)
+  * [05_metadata.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/05_metadata.ipynb)
   * [06_multilabel_classification.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/tree/master/nbs/06_multilabel_classification.ipynb)
   * [07a_diff_archs_resnet101.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07a_diff_archs_resnet101.ipynb)
   * [07b_diff_archs_densenet121.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/07b_different_archs_densenet121.ipynb)
@@ -65,7 +65,7 @@ The kernels are arranged in numerical order so that people can see where we star
 
 [04_baseline_model](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/04_baseline_model.ipynb) - train a resnet18 with and without pretraining.
 
-[05-metadata.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/05-metadata.ipynb) - checking the usability of the metadata in training the model. 
+[05-metadata.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/blob/master/nbs/05_metadata.ipynb) - checking the usability of the metadata in training the model. 
 
 [06_multilabel_classification.ipynb](https://github.com/dipam7/RSNA_Intracranial-hemorrhage/tree/master/nbs/06_multilabel_classification.ipynb) - We take a subset of the dataframe that includes the images with bleeds present. We create a new column in the dataframe that includes all the sub categories of bleeds present in an image separated by semicolon. We then train a model on this data and use a threshold of 0.5 to make predictions. The threshold is set to a high value because we want to be conservative with medical data and not predict a bleed unless we are very sure.
 
